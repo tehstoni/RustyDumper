@@ -54,20 +54,6 @@ Ensure you have the Rust toolchain installed. Then run:
 cargo build --release
 ```
 
-Dependencies
-
-    clap: Command-line argument parsing.
-    windows: Windows API bindings for Rust.
-
-How It Works
-
-RustyDumper performs the following steps:
-
-    Open Process: Uses OpenProcess to obtain a handle to the target process.
-    Create Output File: Utilizes CreateFileW to create the dump file.
-    Write Dump: Calls MiniDumpWriteDump to write the memory dump to the file.
-    Cleanup: Closes all handles to free resources.
-
 Disclaimer
 
     Permissions: Ensure you have the necessary permissions to access and dump the target process.
