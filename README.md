@@ -1,7 +1,8 @@
 # RustyDumper
 
 RustyDumper is a simple command-line tool written in Rust for creating memory dumps of running processes on Windows systems. It utilizes Windows APIs to generate a full memory dump, which can be useful for debugging, analysis, or forensic purposes.
-##Features
+
+## Features
 
     Process Memory Dumping: Dump the full memory of any running process using its PID.
     Custom Output Path: Specify the output file path for the memory dump.
