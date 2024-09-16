@@ -40,12 +40,6 @@ rustydumper.exe 1234 C:\dumps\process_dump.dmp
 This command will create a full memory dump of the process with PID 1234 and save it to C:\dumps\process_dump.dmp.
 Command-Line Arguments
 
-## Building from Source
-Ensure you have the Rust toolchain installed. Then run:
-```bash
-cargo build --release
-```
-
 # Disclaimer
 
     Permissions: Ensure you have the necessary permissions to access and dump the target process.
